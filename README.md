@@ -29,4 +29,5 @@ This project is a fully responsive, static frontend **Travel Website** developed
 
 ## Deployment Links
 * **GitHub Repository:** https://github.com/mnandu0011-design/mantra-travel-website
-* **Netlify Live Demo:** https://app.netlify.com/teams/mnandu0011/projects
+* **Netlify Live Demo:** 
+https://splendid-kheer-0c8997.netlify.app/
