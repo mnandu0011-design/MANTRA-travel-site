@@ -1,7 +1,7 @@
 # MANTRA 2026 Summer School - Frontend Website Assignment 1
 
 ## Student Details
-* **Student Name:** m.shiva nandheswara reddy
+* **Student Name:** M.Shiva Nandheswara Reddy
 * **Registration / Roll Number:** 250200545
 * **Selected Website Topic:** Travel Website (Mantra Travels)
 
