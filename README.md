@@ -1,4 +1,4 @@
-# MANTRA 2026 Summer School - Frontend Website Assignment 1
+# MANTRA 2026 Summer School - Frontend Website ##Assignment 1
 
 ## Student Details
 * **Student Name:** M.Shiva Nandheswara Reddy
