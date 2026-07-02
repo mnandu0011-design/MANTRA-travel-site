@@ -1,75 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact & Booking | MANTRA Travels</title>
-    <meta name="description" content="Get in touch with MANTRA Travels or drop a booking inquiry to lock down your dream vacation.">
-    <meta name="keywords" content="contact travel agency, book a tour, booking form">
-    <link rel="stylesheet" href="style.css">
+
+    <title>Contact Us | Mantra Travel</title>
+
+    <meta name="description"
+        content="Contact Mantra Travel for tour bookings, travel inquiries, and holiday packages across India.">
+
+    <meta name="keywords"
+        content="Contact Mantra Travel, Travel Booking, Holiday Packages, Tour Enquiry">
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-    <header>
-        <div class="logo">MANTRA <span>Travels</span></div>
-        <nav>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="packages.html">Packages</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html" class="active">Contact</a></li>
-            </ul>
-            <div class="hamburger" id="hamburger">&#9776;</div>
-        </nav>
-    </header>
+<header>
 
-    <main class="container page-content">
-        <h1>Contact & Booking Inquiry</h1>
-        <div class="contact-wrapper">
-            <div class="contact-info">
-                <h2>Our Location</h2>
-                <p><strong>Address:</strong> Greater Noida,India</p>
-                <p><strong>Email:</strong> info@mantratravels.com</p>
-                <p><strong>Phone:</strong> +91-9876543210</p>
-            </div>
-            
-            <div class="form-container">
-                <h2>Send Us a Booking Query</h2>
-                <div id="error-message" class="error-box" style="display:none;"></div>
-                
-                <form id="bookingForm" onsubmit="return validateForm(event)">
-                    <div class="form-group">
-                        <label for="fullName">Full Name *</label>
-                        <input type="text" id="fullName" placeholder="Enter your full name">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email Address *</label>
-                        <input type="email" id="email" placeholder="Enter your email address">
-                    </div>
-                    <div class="form-group">
-                        <label for="packageSelect">Select Destination *</label>
-                        <select id="packageSelect">
-                            <option value="">-- Choose a package --</option>
-                            <option value="paris">Romantic Paris Getaway</option>
-                            <option value="bali">Tropical Bali Paradise</option>
-                            <option value="kyoto">Historic Kyoto Exploration</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Special Requests / Notes</label>
-                        <textarea id="message" rows="4" placeholder="Any specifications like dietary limits or room configuration..."></textarea>
-                    </div>
-                    <button type="submit" class="cta-btn">Submit Booking Request</button>
-                </form>
-            </div>
-        </div>
-    </main>
+<div class="logo">
+<h2>🌍 Mantra Travel</h2>
+</div>
 
-    <footer>
-        <p>&copy; 2026 MANTRA Travels. All Rights Reserved. | Designed for MANTRA 2026 Summer School.</p>
-    </footer>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="packages.html">Packages</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="contact.html" class="active">Contact</a></li>
+</ul>
+</nav>
 
-    <script src="script.js"></script>
+</header>
+
+<section class="page-banner">
+
+<h1>Contact Us</h1>
+
+<p>We are here to help you plan your perfect vacation.</p>
+
+</section>
+
+<section class="contact-container">
+
+<div class="contact-info">
+
+<h2>Get In Touch</h2>
+
+<p><strong>📍 Address:</strong><br>
+Mantra Travel, Chennai, Tamil Nadu, India</p>
+
+<p><strong>📞 Phone:</strong><br>
++91 8328310650</p>
+
+<p><strong>📧 Email:</strong><br>
+mnandu0011@gmail.com</p>
+
+<p><strong>🕒 Office Hours:</strong><br>
+Monday - Saturday<br>
+9:00 AM - 7:00 PM</p>
+
+</div>
+
+<div class="contact-form">
+
+<h2>Book Your Tour</h2>
+
+<form id="contactForm">
+
+<label for="name">Full Name</label>
+<input type="text" id="name" placeholder="Enter your name">
+
+<label for="email">Email</label>
+<input type="email" id="email" placeholder="Enter your email">
+
+<label for="phone">Phone Number</label>
+<input type="tel" id="phone" placeholder="Enter your phone number">
+
+<label for="destination">Destination</label>
+
+<select id="destination">
+<option value="">Select Destination</option>
+<option>Goa</option>
+<option>Manali</option>
+<option>Kerala</option>
+<option>Kashmir</option>
+<option>Jaipur</option>
+<option>Andaman</option>
+</select>
+
+<label for="message">Message</label>
+
+<textarea id="message" rows="5"
+placeholder="Write your travel requirements..."></textarea>
+
+<button type="submit" class="btn">
+Submit
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+<section class="map">
+
+<h2>Our Location</h2>
+
+<iframe
+src="https://www.google.com/maps?q=Chennai&output=embed"
+width="100%"
+height="350"
+style="border:0;"
+allowfullscreen=""
+loading="lazy">
+</iframe>
+
+</section>
+
+<footer>
+
+<p>
+© 2026 Mantra Travel. All Rights Reserved.
+</p>
+
+</footer>
+
+<script src="js/script.js"></script>
+
 </body>
 </html>
