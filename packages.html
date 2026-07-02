@@ -1,172 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Tour Packages | Mantra Travel</title>
-
-    <meta name="description"
-        content="Explore affordable travel packages to Goa, Manali, Kerala, Kashmir, Jaipur and more with Mantra Travel.">
-
-    <meta name="keywords"
-        content="Travel Packages, Goa Tour, Kerala Tour, Manali Tour, Kashmir Tour, Jaipur Tour">
-
-    <link rel="stylesheet" href="css/style.css">
+    <!-- Basic SEO Requirements -->
+    <title>Best Selling Vacation Packages | Mantra Travels</title>
+    <meta name="description" content="Book affordable, all-inclusive tour packages for Jaipur, Kerala, Goa, and Shimla. Handpicked itineraries with guided transport and stays.">
+    <meta name="keywords" content="travel packages, holiday tours, Jaipur tour package, Kerala house boat package, Goa vacation package">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Specific packages page image styling */
+        .package-card-img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+        }
+        .badge {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background-color: var(--accent-color, #e76f51);
+            color: #fff;
+            padding: 0.4rem 0.8rem;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-weight: bold;
+            z-index: 10;
+        }
+        .card {
+            position: relative;
+        }
+    </style>
 </head>
-
 <body>
 
-<header>
-
-<div class="logo">
-<h2>🌍 Mantra Travel</h2>
-</div>
-
-<nav>
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="packages.html" class="active">Packages</a></li>
-<li><a href="gallery.html">Gallery</a></li>
-<li><a href="contact.html">Contact</a></li>
-</ul>
-</nav>
-
-</header>
-
-<section class="page-banner">
-
-<h1>Our Tour Packages</h1>
-
-<p>Choose your dream destination and travel with us.</p>
-
-</section>
-
-<section class="packages">
-
-<div class="cards">
-
-<div class="card">
-
-<img src="images/goa.jpg" alt="Goa Beach Tour">
-
-<h3>Goa Tour</h3>
-
-<p>Duration: 4 Days / 3 Nights</p>
-
-<p>Starting From <strong>₹14,999</strong></p>
-
-<p>✓ Beach Resort<br>
-✓ Breakfast Included<br>
-✓ Sightseeing</p>
-
-<a href="contact.html" class="btn">Book Now</a>
-
-</div>
-
-<div class="card">
-
-<img src="images/manali.jpg" alt="Manali Snow Tour">
-
-<h3>Manali Tour</h3>
-
-<p>Duration: 5 Days / 4 Nights</p>
-
-<p>Starting From <strong>₹18,999</strong></p>
-
-<p>✓ Snow Adventure<br>
-✓ Hotel Stay<br>
-✓ Local Guide</p>
-
-<a href="contact.html" class="btn">Book Now</a>
-
-</div>
-
-<div class="card">
-
-<img src="images/kerala.jpg" alt="Kerala Backwaters Tour">
-
-<h3>Kerala Tour</h3>
-
-<p>Duration: 6 Days / 5 Nights</p>
-
-<p>Starting From <strong>₹21,999</strong></p>
-
-<p>✓ Houseboat Stay<br>
-✓ Nature Tour<br>
-✓ Breakfast Included</p>
-
-<a href="contact.html" class="btn">Book Now</a>
-
-</div>
-
-<div class="card">
-
-<img src="images/kashmir.jpg" alt="Kashmir Tour">
-
-<h3>Kashmir Tour</h3>
-
-<p>Duration: 5 Days / 4 Nights</p>
-
-<p>Starting From <strong>₹24,999</strong></p>
-
-<p>✓ Gulmarg Visit<br>
-✓ Deluxe Hotel<br>
-✓ Transportation</p>
-
-<a href="contact.html" class="btn">Book Now</a>
-
-</div>
-
-<div class="card">
-
-<img src="images/jaipur.jpg" alt="Jaipur Heritage Tour">
-
-<h3>Jaipur Tour</h3>
-
-<p>Duration: 3 Days / 2 Nights</p>
-
-<p>Starting From <strong>₹11,999</strong></p>
-
-<p>✓ Palace Visit<br>
-✓ Heritage Tour<br>
-✓ Breakfast</p>
-
-<a href="contact.html" class="btn">Book Now</a>
-
-</div>
-
-<div class="card">
-
-<img src="images/andaman.jpg" alt="Andaman Island Tour">
-
-<h3>Andaman Tour</h3>
-
-<p>Duration: 6 Days / 5 Nights</p>
-
-<p>Starting From <strong>₹29,999</strong></p>
-
-<p>✓ Island Cruise<br>
-✓ Beach Activities<br>
-✓ Luxury Stay</p>
-
-<a href="contact.html" class="btn">Book Now</a>
-
-</div>
-
-</div>
-
-</section>
-
-<footer>
-
-<p>© 2026 Mantra Travel. All Rights Reserved.</p>
-
-</footer>
-
-<script src="js/script.js"></script>
-
+    <!-- Shared Header Layout -->
+    <header>
+        <div class="navbar container">
+            <div class="logo">Mantra<span>Travels</span></div>
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="packages.html" class="active">Packages</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="booking.html">Booking</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" id="mobileMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="container section">
+        <h1>Our Best-Selling Vacation Packages</h1>
+        <p class="subtitle text-center">All-inclusive itineraries featuring premium stays, guided transport, and curated local dining.</p>
+
+        <!-- Grid Container with Unique Package Images -->
+        <div class="grid section-margin">
+            
+            <!-- Package 1: Royal Heritage Tour -->
+            <div class="card">
+                <span class="badge">3 Days / 2 Nights</span>
+                <img src="https://images.unsplash.com/photo-1564507592333-c60657eea523?w=600&auto=format&fit=crop&q=60" alt="The beautiful historic Taj Mahal monument in India" class="package-card-img">
+                <div class="card-body" style="padding: 1.5rem;">
+                    <h2>Royal Heritage Tour</h2>
+                    <p class="location" style="color: #e76f51; font-weight: 600; margin-bottom: 0.5rem;">Jaipur, Rajasthan</p>
+                    <p>Explore majestic forts, royal palaces, and vibrant craft bazaars. Includes heritage hotel stay and camel safari ride.</p>
+                </div>
+            </div>
+
+            <!-- Package 2: Tropical Serenity Escape -->
+            <div class="card">
+                <span class="badge">5 Days / 4 Nights</span>
+                <img src="https://images.unsplash.com/photo-1593693397690-362cb9666fc2?w=600&auto=format&fit=crop&q=60" alt="Luxury traditional cruise houseboat along the calm backwaters of Kerala" class="package-card-img">
+                <div class="card-body" style="padding: 1.5rem;">
+                    <h2>Tropical Serenity Escape</h2>
+                    <p class="location" style="color: #e76f51; font-weight: 600; margin-bottom: 0.5rem;">Munnar & Alleppey</p>
+                    <p>Unwind with a 2-night tea hill resort escape followed by a luxury houseboat cruise along the tranquil backwaters.</p>
+                </div>
+            </div>
+
+            <!-- Package 3: Sun, Sand & Spice Getaway -->
+            <div class="card">
+                <span class="badge">4 Days / 3 Nights</span>
+                <img src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=600&auto=format&fit=crop&q=60" alt="Beautiful sun drenched beach resort shore in Calangute Goa" class="package-card-img">
+                <div class="card-body" style="padding: 1.5rem;">
+                    <h2>Sun, Sand & Spice Getaway</h2>
+                    <p class="location" style="color: #e76f51; font-weight: 600; margin-bottom: 0.5rem;">Calangute, Goa</p>
+                    <p>Relax at a beachfront resort. Includes complimentary water sports activities, a South Goa tour, and a spice farm lunch.</p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Shared Footer Layout -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Mantra Summer School Project. Designed for Frontend Assignment 1.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
