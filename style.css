@@ -301,3 +301,19 @@ footer {
     margin-right: auto;
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
 }
+/* Ensure the body takes up at least the full height of the screen */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Push the footer to the bottom of the page */
+footer {
+    margin-top: auto;
+    background-color: #14232d; /* Matches your navbar */
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
